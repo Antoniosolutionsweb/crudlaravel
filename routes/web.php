@@ -14,7 +14,7 @@
 Route::get('/', function () {
    return redirect("/login");
 });
-
+   
 Route::get('/usuarios','HomeController@usuarios')->name('usuarios');
 
 Route::resource('/business','BusinessController');
